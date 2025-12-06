@@ -138,8 +138,8 @@ const ProjectsSection = () => {
     // Mock Data for Projects (using the same mock data for consistency)
     const projects = [
         { /* ... project 1 data ... */ title: "E-Commerce Store", techStack: ["React", "JavaScript", "Tailwind CSS", "Context API"], image: GazeWatch_Frontend, githubUrl: "https://github.com/NizamKhanAmazai/GazeWatch", liveDemoUrl: "https://gaze-watch-frontend.vercel.app" },
-        { /* ... project 1 data ... */ title: "E-Commerce Admin Dashboard", techStack: ["React", "JavaScript", "Tailwind CSS", "Recharts"], image: GazeWatch_backend, githubUrl: "https://github.com/NizamKhanAmazai/GazeWatch", liveDemoUrl: "https://gaze-watch.vercel.app" },
-        { /* ... project 2 data ... */ title: "Blogging Website", techStack: ["React", "Firebase", "Redux", "Framer Motion"], image: "https://placehold.co/600x400/1e293b/4dd0e1?text=Comming+Soon", githubUrl: "#", liveDemoUrl: "#" },
+        { /* ... project 1 data ... */ title: "E-Commerce Admin Dashboard", techStack: ["React", "JavaScript", "Tailwind CSS", "GSAP Animation",  "Context API"], image: GazeWatch_backend, githubUrl: "https://github.com/NizamKhanAmazai/GazeWatch", liveDemoUrl: "https://gaze-watch.vercel.app" },
+        { /* ... project 2 data ... */ title: "Blogging Website", techStack: ["React", "Firebase", "Redux", "Framer Motion", "Tailwind CSS",], image: "https://placehold.co/600x400/1e293b/4dd0e1?text=Comming+Soon", githubUrl: "#", liveDemoUrl: "#" },
         { /* ... project 2 data ... */ title: "Task Manager App", techStack: ["Next.js", "Firebase", "Zustand", "Sass"], image: "https://placehold.co/600x400/1e293b/4dd0e1?text=Comming+Soon", githubUrl: "#", liveDemoUrl: "#" },
         { /* ... project 3 data ... */ title: "Portfolio Website v3", techStack: ["React", "Tailwind CSS", "Vite", "JS (ES6+)"], image: "https://placehold.co/600x400/1a109b/f0ad4e?text=Comming+Soon", githubUrl: "#", liveDemoUrl: "#" }, 
         { /* ... project 4 data ... */ title: "Internal Tooling Platform", techStack: ["Node.js", "Express", "MongoDB", "Docker"], image: "https://placehold.co/600x400/1e123b/f0aede?text=Comming+Soon", githubUrl: "#", liveDemoUrl: "#" },
