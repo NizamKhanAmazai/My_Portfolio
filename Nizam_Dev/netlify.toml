@@ -1,7 +1,7 @@
 [build]
-  base = "Nizam_Dev"
-  command = "pnpm build"
-  publish = "Nizam_Dev/dist"
+  base = "Nizam_Dev"       # run build inside this folder
+  command = "pnpm build"   # your Vite build command
+  publish = "dist"          # Vite outputs here; do NOT prepend Nizam_Dev
 
 [build.environment]
   USE_PNPM = "true"
