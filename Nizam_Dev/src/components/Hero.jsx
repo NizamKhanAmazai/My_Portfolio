@@ -178,6 +178,7 @@ const HeroSection = () => {
                     <img 
                         ref={imageRef}
                         src={profile_Image} 
+                        loading='lazy'
                         className="w-64 h-64 sm:w-80 sm:h-80 object-fill text-gray-600 rounded-full shadow-2xl border-7 border-indigo-500/50 transform transition-all duration-500 hover:border-cyan-400/70" 
                     />
                 </div>

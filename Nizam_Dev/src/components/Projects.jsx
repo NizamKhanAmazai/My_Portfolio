@@ -72,6 +72,7 @@ const ProjectCard = React.forwardRef(({ project, index }, ref) => {
             <div className="h-48 bg-gray-700 flex items-center justify-center">
                 <img 
                     src={project.image} 
+                    loading='lazy'
                     alt={`Preview of ${project.title}`} 
                     className="w-full h-full object-cover"
                     onError={(e) => { 

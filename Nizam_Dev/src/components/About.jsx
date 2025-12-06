@@ -117,7 +117,7 @@ const AboutSection = () => {
                         
                         <div ref={photoRef} className="flex-shrink-0">
                             <div className="w-40 h-40 rounded-full bg-gray-700 flex items-center justify-center shadow-lg border-2 border-cyan-400">
-                                <img src={profile_Image} className="w-full h-full object-fill rounded-full" />
+                                <img src={profile_Image} loading='lazy' className="w-full h-full object-fill rounded-full" />
                             </div>
                         </div>
 
