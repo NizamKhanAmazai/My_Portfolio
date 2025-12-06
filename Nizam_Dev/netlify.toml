@@ -1,10 +1,7 @@
 [build]
+  base = "Nizam_Dev"
   command = "pnpm build"
-  publish = "dist" # or your build output folder
+  publish = "Nizam_Dev/dist"
 
 [build.environment]
-  NPM_FLAGS = "--version"
   USE_PNPM = "true"
-
-[[plugins]]
-  package = "netlify-plugin-pnpm"
